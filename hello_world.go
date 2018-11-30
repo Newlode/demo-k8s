@@ -29,7 +29,7 @@ func helloFunc(c *gin.Context) {
 }
 
 func healthFunc(c *gin.Context) {
-	c.String(http.StatusOK, "")
+	c.String(http.StatusOK, "OK")
 }
 
 func versionFunc(c *gin.Context) {
